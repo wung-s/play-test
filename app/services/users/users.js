@@ -39,6 +39,7 @@
 
     // Users.method = function() {};
     Users.all = function() {
+      // console.log('calling all');
       return userList;
     };
     Users.findById = function(id) {
